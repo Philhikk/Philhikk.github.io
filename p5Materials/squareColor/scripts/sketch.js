@@ -1,5 +1,6 @@
 function setup() {
-  createCanvas(100, 100);
+  let cnv = createCanvas(100, 100);
+  cnv.parent("squareColor");
   // background(200);
   colorMode(HSB, 360, 100, 100);
   // rectMode(CENTER);
@@ -9,12 +10,12 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  cnv.background(220);
 
   // let hue = slider.value();
   // background(hue, 100, 100);
   // translate(width / 2, height / 2);
-  background(360 - mouseY, 100, 100);
+  cnv.background(360 - mouseY, 100, 100);
   fill(360 - mouseX, 100, 100);
   // rotate(PI / 8);
   rectMode(CENTER);

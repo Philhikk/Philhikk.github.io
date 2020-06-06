@@ -123,8 +123,8 @@ h2 {
 .pictureGrid {
 	
 	/* margin-top: 100px; */
-	margin-left: 100px;
-	/* width: 880px; */
+	margin-left: 140px;
+	width: 400px;
 	float: left;
 	font-size: 11px;
 	/* line-height: 18px; */
@@ -214,6 +214,7 @@ h2 {
 	width: 140px;
 	float: left;
 	margin-left: 0;
+	margin-right: 100;
 	margin-top: 0;
 	font-size: 12px;
 	font-weight: normal;
@@ -222,7 +223,7 @@ h2 {
 	
 	padding-right: 0px;
 	padding-bottom: 600px;
-	padding-left: 0px;
+	padding-left: 20px;
 	color: #CCC;
 }
 
@@ -255,6 +256,17 @@ h2 {
   padding-left:180px;
 }
 
+iframe {
+	
+	width: 1200px;
+	height: 900px;
+	float: left;
+	margin-top: 6px;
+	margin-right: 46px;
+	margin-bottom: 40px;
+	margin-left: 150px;
+}
+
 .bildbox01 {
   width:190px;
   margin:0px 10px 10px 0px;
@@ -271,11 +283,8 @@ h2 {
 	margin-left: 10px;
 }
 
-.bildbox03 {
-  width:90%;
-  height:310px;
-  margin:10px 10px 20px 0px;
-  float:left;
+.pictureBox03 {
+	margin-left: 100px;
 }
 
 .bildbox04 {
